@@ -9,12 +9,14 @@
     <meta property="og:title" content="Pill Better" /> 
     <meta property="og:type" content="website" />
     <!-- <meta property="og:image" content="https://wedding-a5cd0.firebaseapp.com/image/CSK_0265.jpg" /> -->
-    <meta property="og:description" content="약국의 의약품, 영양제 가격 공개" />
+    <meta property="og:description" content="약국의 의약품, 영양제 가격을 투명하게" />
     <!-- <meta property="og:url" content="https://wedding-a5cd0.firebaseapp.com" /> -->
 
     <!-- Meta -->
-    <meta name="theme-color" content="#f07677">
+    <meta name="theme-color" content="#00aaff">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="Pill Better">
+    <meta name="description" content="필베러. 약국의 의약품, 영양제 가격을 투명하게">
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -22,23 +24,50 @@
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
 
     <!-- Favicon -->
-    <!-- <link rel="shortcut icon" type="image/png" href="image/favicon.png" /> -->
+    <link rel="shortcut icon" type="image/png" href="./uploads/favicon.png" />
 
 </head>
 <body>
-    <div id="poryApp" data-domain="https://pillbetter.pory.app">
-    </div>
+    <header class="header">
+        <div class="header__container">
+
+        </div>
+
+    </header>
+
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero--content">
+                <h1>Pill Better</h1>
+                <h3>약국의 의약품, 영양제 가격을 투명하게</h3>
+            </div>
+            <div class="hero--cover">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="main__container">
+            <div id="poryApp" data-domain="https://pillbetter.pory.app">
+            </div>
+        </div>
+    </main>
 
     <!-- FOOTER -->
-    <section class="footer">
+    <footer class="footer">
         <div class="footer__container">
             <span class="footer__copyright">
                 &copy; 2020 PillBetter, All rights reserved.
             </span>
         </div>
-        
-    </section>
+    </footer>
+
+    <button class="topBtn" title="Go to top">Top</button>
 
     <!-- SCRIPT -->
     <script src="https://pory.app/widget.js"></script>
+    <script src="topBtn.js"></script>
+
 </body>
