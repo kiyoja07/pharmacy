@@ -49,3 +49,7 @@ Temporary Items
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,macos,firebase
+
+.github/
+firebase.json
+public/
