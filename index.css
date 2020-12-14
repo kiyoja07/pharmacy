@@ -18,6 +18,12 @@ a:hover {
   text-decoration: none;
 }
 
+a {
+  all: unset;
+  cursor: pointer;
+  color: inherit;
+}
+
 /* HEADER */
 
 .header__container {
@@ -25,7 +31,7 @@ a:hover {
   transition: top 0.5s;
   display: table;
   width: 100%;
-  height: 7%;
+  height: 10vh;
   background: #00aaff;
   z-index: 3;
   box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
@@ -63,7 +69,9 @@ a:hover {
 .hero {
   width: 100%;
   height: 30vh;
-  padding-top: 7%;
+  padding-top: 10vh;
+  position: relative;
+  top: 10vh;
 }
 
 .hero__container,
@@ -81,10 +89,11 @@ a:hover {
 }
 
 .hero__container {
-  position: relative;
+  /* position: relative; */
   background-image: url("./uploads/background_pillbetter.jpeg");
-  height: 23vh;
+  height: 30vh;
   background-size: cover;
+  background-position: center;
 }
 
 .hero--cover {
@@ -110,18 +119,45 @@ a:hover {
 .footer {
   background-color: #00aaff;
   width: 100%;
-  height: 20%;
 }
 
 .footer__container {
   margin: 0 auto;
   padding: 7vh 5vw;
+  display: table;
+}
+
+.footer__ul {
+  padding: 0;
+  font-weight: 600;
+  margin: 1vh 0;
+}
+
+.footer__serviceName {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Gothic A1", sans-serif;
+  letter-spacing: 1.1px;
+  font-weight: bold;
+  /* display: inline-block;
+  border-bottom: 2px solid #00334d; */
+}
+
+.footer__form {
+  margin: 0 0 4vh 0;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Gothic A1", sans-serif;
 }
 
 .footer__copyright {
-  font-size: 14px;
-  text-align: center;
-  margin: 0 auto;
+  padding: 4vh 0 0 0;
+}
+
+.footer__copyright--text {
+  color: #ffffff;
+  font-size: 10px;
+  display: table-cell;
   font-family: "Nunito", sans-serif;
 }
 
