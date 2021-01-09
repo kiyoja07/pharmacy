@@ -90,7 +90,8 @@ a {
 
 .hero__container {
   /* position: relative; */
-  background-image: url("./uploads/background_pillbetter.jpeg");
+  background-image: url("https://kr.object.ncloudstorage.com/pillbetter/images/home_bg_pillbetter.jpg");
+  /* background-image: url("./uploads/background_pillbetter.jpeg"); */
   height: 30vh;
   background-size: cover;
   background-position: center;
