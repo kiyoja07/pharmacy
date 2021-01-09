@@ -108,6 +108,13 @@ a {
     MAIN
 */
 
+.main {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  top: 5vh;
+}
+
 #poryApp {
   width: 100%;
 }
